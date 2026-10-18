@@ -1,0 +1,49 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  min-height: 100vh;
+}
+.main-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: italic;
+}
+.counter-value {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.main-paragraph {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+}
+.image-container {
+  max-width: 300px;
+}
+.btn {
+  height: 34px;
+  width: 100px;
+  margin: 10px;
+  border-width: 0px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.first-button {
+  background-color: #0b69ff;
+  color: white;
+}
+.second-button {
+  background-color: transparent;
+  border-width: 2px;
+  color: #94a3b8;
+  border-color: #94a3b8;
+}
+
+@media screen and (min-width: 768px) {
+  .image-container {
+    max-width: 600px;
+  }
+}
